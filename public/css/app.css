@@ -1,10 +1,22 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700);* {
-  margin: 0;
-  padding: 0;
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700);.container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 1280px;
+  margin: 0 auto;
+  background: #454ADE;
+  padding: 5px;
 }
 
-html {
-  background: tomato;
+@media (max-width: 768px) {
+  .container {
+    width: 98%;
+  }
+}
+
+@media (min-width: 998px) {
+  .container {
+    width: 95%;
+  }
 }
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -43,7 +55,7 @@ body {
 
 h1 {
   font-size: 2em;
-  /*margin: 0.67em 0*/
+  margin: 0.30em 0;
 }
 
 /* Grouping content
@@ -365,7 +377,55 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
-  font-weight: 600;
+  line-height: 1.05rem;
+  font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    line-height: 1.25rem;
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 998px) {
+  h1 {
+    line-height: 1.25rem;
+    font-size: 2.2rem;
+  }
+}
+
+h2 {
+  line-height: 1.25rem;
+  font-size: 2.25rem;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 998px) {
+  h2 {
+    font-size: 1.75rem;
+  }
+}
+
+h3 {
+  line-height: 1.25rem;
+  font-size: 1.75rem;
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 998px) {
+  h3 {
+    font-size: 1.5rem;
+  }
 }
 
