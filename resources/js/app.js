@@ -1,1 +1,1 @@
-alert('Hello Laravel Mix')
+//alert('Hello Laravel Mix')

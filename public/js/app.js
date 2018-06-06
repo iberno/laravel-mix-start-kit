@@ -75,7 +75,7 @@ module.exports = __webpack_require__(2);
 /* 1 */
 /***/ (function(module, exports) {
 
-alert('Hello Laravel Mix');
+//alert('Hello Laravel Mix')
 
 /***/ }),
 /* 2 */

@@ -13,7 +13,7 @@ let mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.sass', 'public/css')
-    .browserSync('http://laravelmix-skit.test/');
+    .browserSync('laravelmix-skit.test');
 
 // Full API
 // mix.js(src, output);
