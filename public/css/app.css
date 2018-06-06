@@ -131,6 +131,18 @@ table {
 }
 
 body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+body {
   background: slategrey;
   font-family: 'Montserrat', sans-serif;
 }
